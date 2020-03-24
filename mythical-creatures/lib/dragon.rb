@@ -5,15 +5,14 @@ class Dragon
     @name = name
     @rider = rider
     @color = color
-    @hungry = true
-    @meals = meals
+    @meals = start_meals
   end
 
   def hungry?
     @meals != 3
   end
 
-  def meals
+  def start_meals
     0
   end
 
