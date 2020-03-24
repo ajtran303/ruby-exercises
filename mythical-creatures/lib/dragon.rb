@@ -10,7 +10,7 @@ class Dragon
   end
 
   def hungry?
-    @hungry unless @meals == 3
+    @meals != 3
   end
 
   def meals
