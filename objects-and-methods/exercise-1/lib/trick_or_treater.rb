@@ -7,11 +7,11 @@ class TrickOrTreater
   end
 
   def has_candy?
-    @bag.count > 0
+    bag.count > 0
   end
 
   def candy_count
-    @bag.count
+    bag.count
   end
 
   def eat

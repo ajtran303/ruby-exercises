@@ -6,11 +6,11 @@ class Bag
   end
 
   def empty?
-    @candies.empty?
+    candies.empty?
   end
 
   def count
-    @candies.length
+    candies.length
   end
 
   def << candy
@@ -18,7 +18,7 @@ class Bag
   end
 
   def contains? treat
-    @candies.find do |candy|
+    candies.find do |candy|
       treat == candy.type
     end
   end
